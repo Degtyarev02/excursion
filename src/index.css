@@ -1,0 +1,35 @@
+body {
+  background-image: url('../public/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: 'EB Garamond', serif !important;
+  /* Основной текст */
+  font-weight: 400 !important;
+  /* Regular */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Заголовки (h1-h6) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-weight: bold !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
