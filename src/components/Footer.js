@@ -20,7 +20,7 @@ const Footer = () => {
 				© {new Date().getFullYear()} Все права защищены.
 			</Typography>
 			<Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-				Контактная информация: example@email.com
+				Контактная информация: +7 903 747-71-92
 			</Typography>
 		</Box>
 	);

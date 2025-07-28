@@ -23,13 +23,13 @@ const Portfolio = ({ list }) => {
 	return (
 		<Box sx={{ width: "100%", margin: "0 auto" }}>
 			<Carousel
-				swipeable={false}
+				swipeable={true}
 				showDots={false}
 				infinite={true}
 				responsive={responsive}
 				autoPlay={true}
-				autoPlaySpeed={5000}
-                arrows={false}
+				autoPlaySpeed={3500}
+				removeArrowOnDeviceType={["mobile", "tablet"]}
 			>
 				{list.map((item, index) => (
 					<div>

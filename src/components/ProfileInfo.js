@@ -44,7 +44,7 @@ const ProfileInfo = () => {
 					alignItems="center"
 				>
 					<ImageContainer>
-						<Image src={"az.jpg"} />
+						<Image src={"profile.jpg"} />
 					</ImageContainer>
 				</Grid>
 				<Grid container alignContent={"space-around"} size={{ xs: 12, md: 8 }}>

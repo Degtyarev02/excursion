@@ -51,38 +51,12 @@ const ContactIcons = () => {
 			<ContactItem>
 				<Collapse
 					orientation="horizontal"
-					in={expanded.email}
-					timeout="auto"
-					unmountOnExit
-				>
-					<ContactText
-						href="mailto:vladimirdegty@gmail.com"
-						sx={{
-							textDecoration: "none",
-							"&:hover": { textDecoration: "underline" },
-						}}
-					>
-						vladimirdegty@gmail.com
-					</ContactText>
-				</Collapse>
-				<IconButton
-					aria-label="email"
-					onClick={() => handleExpandClick("email")}
-					sx={{ backgroundColor: "secondary.main" }}
-				>
-					<EmailIcon style={{ width: 24, height: 24 }} />
-				</IconButton>
-			</ContactItem>
-
-			<ContactItem>
-				<Collapse
-					orientation="horizontal"
 					in={expanded.tg}
 					timeout="auto"
 					unmountOnExit
 				>
 					<ContactText
-						href="https://t.me/degtyarev02"
+						href="https://t.me/AnnetteZz"
 						target="_blank"
 						rel="noopener noreferrer"
 						sx={{
@@ -90,7 +64,7 @@ const ContactIcons = () => {
 							"&:hover": { textDecoration: "underline" },
 						}}
 					>
-						@degtyarev02
+						@AnnetteZz
 					</ContactText>
 				</Collapse>
 				<IconButton
@@ -138,7 +112,7 @@ const ContactIcons = () => {
 					unmountOnExit
 				>
 					<ContactText
-						href="tel:+79263262344"
+						href="tel:+7 903 747-71-92"
 						target="_blank"
 						rel="noopener noreferrer"
 						sx={{
@@ -146,7 +120,7 @@ const ContactIcons = () => {
 							"&:hover": { textDecoration: "underline" },
 						}}
 					>
-						8(926)326-23-44
+						8(903)747-71-92
 					</ContactText>
 				</Collapse>
 				<IconButton

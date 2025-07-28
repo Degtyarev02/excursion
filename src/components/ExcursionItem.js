@@ -44,7 +44,7 @@ const ExcursionItem = ({ info }) => {
 			</Grid>
 			<Grid item container size={{ xs: 12, md: 7 }}>
 				<Grid item size={{ xs: 12 }}>
-					<Typography marginBottom={"6px"} variant={matches ? "h4" : "h5"}>
+					<Typography marginBottom={"4px"} variant={matches ? "h4" : "h5"}>
 						{info.name}
 					</Typography>
 					<Divider />
@@ -52,8 +52,11 @@ const ExcursionItem = ({ info }) => {
 						Возрастной рейтинг: {info.age}
 					</Typography>
 					<Typography variant="body1">Длительность: {info.time}</Typography>
-					<Typography marginBottom={"6px"} variant="body1">
+					<Typography marginBottom={"4px"} variant="body1">
 						Маршрут: {info.route}
+					</Typography>
+					<Typography marginBottom={"4px"} variant="body1" sx={{lineHeight: 1.3}}>
+						Стоимость: {info.price}
 					</Typography>
 					<Divider />
 					<Box>
