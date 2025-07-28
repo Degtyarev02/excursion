@@ -3,16 +3,15 @@ import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
 import { useState } from "react";
 
-import { ReactComponent as TripsterIcon } from "..//icons/tripster.svg";
-import { ReactComponent as EmailIcon } from "..//icons/email.svg";
-import { ReactComponent as TgIcon } from "..//icons/tg.svg";
 import { ReactComponent as PhoneIcon } from "..//icons/phone.svg";
+import { ReactComponent as TgIcon } from "..//icons/tg.svg";
+import { ReactComponent as TripsterIcon } from "..//icons/tripster.svg";
 
 const ContactItems = styled("div")({
 	display: "flex",
 	alignItems: "center",
 	flexWrap: "wrap",
-	marginTop: "20px",
+	marginTop: "10px",
 	gap: "5px",
 });
 

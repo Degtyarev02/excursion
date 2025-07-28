@@ -68,6 +68,9 @@ const ProfileInfo = () => {
 						</Typography>
 					</Grid>
 					<Grid>
+						<Typography variant={matches ? "h5" : "h6"}>
+							По всем вопросам обращаться:
+						</Typography>
 						<ContactIcons />
 					</Grid>
 				</Grid>

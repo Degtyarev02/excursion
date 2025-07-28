@@ -13,10 +13,21 @@ const Portfolio = ({ list }) => {
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
 
 	const responsive = {
+		lgDesktop: {
+			breakpoint: { max: 3000, min: 2048 },
+			items: 2,
+		},
 		desktop: {
-			breakpoint: { max: 3000, min: 0 },
+			breakpoint: { max: 2048, min: 1024 },
+			items: 2,
+		},
+		tablet: {
+			breakpoint: { max: 1024, min: 700 },
 			items: 1,
-			slidesToSlide: 1,
+		},
+		mobile: {
+			breakpoint: { max: 700, min: 0 },
+			items: 1,
 		},
 	};
 
@@ -27,15 +38,14 @@ const Portfolio = ({ list }) => {
 				showDots={false}
 				infinite={true}
 				responsive={responsive}
-				autoPlay={true}
-				autoPlaySpeed={3500}
+				autoPlay={false}
 				removeArrowOnDeviceType={["mobile", "tablet"]}
 			>
 				{list.map((item, index) => (
 					<div>
 						<Image src={item.img} />
 						<Box sx={{ position: "absolute", top: "10px", left: "20px" }}>
-							<Typography variant={matches ? "h2" : "h5"}>
+							<Typography variant={matches ? "h2" : "h5"} sx={{mixBlendMode: "darken"}}>
 								{item.head}
 							</Typography>
 							<Typography
