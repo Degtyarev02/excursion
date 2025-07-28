@@ -1,16 +1,16 @@
 export const portfolio = [
 	{
-		img: "excursions/w1.JPG",
+		img: "/excursions/photo11.jpg",
 		head: "Деньги за любовь",
 		desc: "26/07/2025",
 	},
 	{
-		img: "excursions/w11.JPG",
+		img: "/excursions/photo12.jpg",
 		head: "Деньги за любовь",
 		desc: "26/07/2025",
 	},
 	{
-		img: "excursions/w12.JPG",
+		img: "/excursions/photo13.jpg",
 		head: "Деньги за любовь",
 		desc: "26/07/2025",
 	},
