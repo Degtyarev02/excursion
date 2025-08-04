@@ -44,7 +44,6 @@ const ReviewCarousel = ({ list }) => {
 				infinite={true}
 				responsive={responsive}
 				autoPlay={false}
-				removeArrowOnDeviceType={["mobile", "tablet"]}
 			>
 				{list.map((item, index) => (
 					<ReviewItem info={item} />

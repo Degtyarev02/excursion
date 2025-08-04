@@ -44,7 +44,6 @@ const ExcursionCarousel = ({ list }) => {
 				infinite={true}
 				responsive={responsive}
 				autoPlay={false}
-				removeArrowOnDeviceType={["mobile", "tablet"]}
 			>
 				{list.map((info, index) => (
 					<ExcursionItem info={info} />

@@ -39,7 +39,6 @@ const Portfolio = ({ list }) => {
 				infinite={true}
 				responsive={responsive}
 				autoPlay={false}
-				removeArrowOnDeviceType={["mobile", "tablet"]}
 			>
 				{list.map((item, index) => (
 					<div>
