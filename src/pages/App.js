@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ProfileSection from "../components/ProfileSection";
+import Header from "../components/Header";
 
 // Тема создаётся ВНЕ компонента
 const theme = createTheme({
@@ -53,6 +54,7 @@ function ResponsiveBox() {
 				marginTop: "0"
 			}}
 		>
+			<Header/>
 			<BrowserRouter>
 				<Routes>
 					<Route index element={<ProfileSection />} />

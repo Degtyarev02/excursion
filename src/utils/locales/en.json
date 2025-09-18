@@ -1,0 +1,111 @@
+{
+	"portfolio": {
+		"items": {
+			"1": {
+				"title": "Money for Love",
+				"date": "26/07/2025"
+			},
+			"2": {
+				"title": "Money for Love",
+				"date": "26/07/2025"
+			},
+			"3": {
+				"title": "Money for Love",
+				"date": "26/07/2025"
+			}
+		}
+	},
+	"reviews": {
+		"1": {
+			"name": "Svetlana",
+			"excursion": "And Again About Love",
+			"text": "A wonderful walk and a very welcoming guide Anna. She told many interesting stories that I didn't even know about. Old houses, mansions and temples revealed themselves in a new way. It's great to learn beautiful stories about our beloved city!"
+		},
+		"2": {
+			"name": "Elena",
+			"excursion": "And Again About Love",
+			"text": "A very soulful and interesting excursion. It was my first time in such an atmosphere where you walk around Moscow as with an acquaintance who tells interesting stories. You can ask questions and they won't go unanswered. I recommend it to everyone."
+		},
+		"3": {
+			"name": "Yaroslava",
+			"excursion": "Money for Love",
+			"text": "An excellent excursion. A very pleasant guide - Anna. The excursion started in heavy rain. Anna managed to navigate and change the route. I liked that she didn't get confused or nervous, but set the mood that everything would be fine! So many interesting facts she told us. During the excursion we did a quest. The questions were designed so that by answering them, you consolidate what you heard in your head! I looked at Moscow and the Sretenka district with different eyes. I highly recommend it to those who want not only to wander around Moscow, immerse themselves in its past, but also to experience something unusual and spicy!"
+		},
+		"4": {
+			"name": "Maria",
+			"excursion": "Money for Love",
+			"text": "Anna revealed to us the secrets of the capital, managing to conduct a quest-excursion on a very delicate topic very tactfully and at the same time in detail. We walked through the red light district, noted the preserved buildings that have their own special history related to the theme of the quest-excursion. Anna is a wonderful storyteller who not only reports general facts about people, places and eras, but also conducts her own investigations, the results of which impressed us very much. We are very glad that we paid attention to such an extraordinary excursion, as a result we got an excellent walk through the inconspicuous alleys of Moscow in the company of an interesting storyteller and a person passionate about the history of his native city. Anna made riddles and managed to photograph us, in the end, having reached the extreme point of the route and guessed the last task, we received not only a wonderful mood, but a whole scattering of photos, as well as pleasant and entertaining souvenirs for the completed quest! Definitely recommend!"
+		},
+		"5": {
+			"name": "Andrey",
+			"excursion": "Money for Love",
+			"text": "An excellent excursion. Anna tells very interestingly. I learned a lot of new things about the life of Moscow in the 19th century. The excursion is accompanied by an exciting quest. This greatly involves you in the process and unobtrusively makes you listen carefully to Anna. I repeat, it is very interesting and informative. Anna, thank you very much. :)"
+		},
+		"6": {
+			"name": "Anna",
+			"excursion": "And Again About Love",
+			"text": "A light, pleasant walk through the beautiful places of Moscow. Stories about famous people, their lives, their love. Anna presents information interestingly: beautiful stories and poems. You get involved in the lives of the story's heroes. I recommend the excursion to those who want to have a good time and learn something new and beautiful about Moscow."
+		}
+	},
+	"excursions": {
+		"1": {
+			"title": "And Again About Love",
+			"age": "16+",
+			"time": "90 min",
+			"route": "Moscow. m. Arbat",
+			"description": "Even if you've been here more than once, this tour will reveal new details and meanings to you. I will tell touching, dramatic and curious stories from the lives of famous Muscovites. About romantic, parental, spiritual love, love for the Fatherland. And love for the city itself. You will see it from unexpected angles, look into cozy corners and hear what its streets whisper about.",
+			"price": "Group 1800₽ per person"
+		},
+		"2": {
+			"title": "Money for Love: author's quest in Sretenka lanes",
+			"age": "18+",
+			"time": "150 min",
+			"route": "Moscow. Trubnaya Square",
+			"description": "We will immerse ourselves in times when instead of cars there were horse-drawn carriages, fire signs were hung on the watchtower to announce a fire, and in the city center you could retire with a lady you liked. Many Muscovites don't know where the red light district was, but I'll show you. I will also tell you how the red light district was formed, how the authorities controlled this area and what orders prevailed here.",
+			"price": "Group up to 10 people. 1800₽ per person."
+		},
+		"3": {
+			"title": "Novodevichy Convent",
+			"age": "14+",
+			"time": "90 min",
+			"route": "Moscow. Novodevichy Convent",
+			"description": "We will walk through the quiet and cozy territory of the ancient monastery. We will visit an active temple and examine the museum exhibition. You will see the Cathedral of the Smolensk Icon of the Mother of God, the Assumption Church with a unique refectory for its time, the Mariinsky Chambers and other attractions.",
+			"price": "In a group 1500₽ per person. Individually 7000₽. Additionally, it is necessary to purchase an excursion ticket: adults - 500 ₽, students, children, pensioners, members of large families, disabled people - 300 ₽"
+		},
+		"4": {
+			"title": "Kitay-Gorod - a district where stone speaks and time freezes",
+			"age": "10+",
+			"time": "90 min",
+			"route": "Moscow. m. Kitay-Gorod",
+			"description": "We will talk about the three main streets of Kitay-Gorod and the historical events that took place on each of them, excursionists will learn to read the history of streets and lanes by their names, get acquainted with old maps of Moscow and understand the logic of building ancient Moscow streets, learn how the world's largest hotel was built and dismantled.",
+			"price": "Individual excursion 7000₽."
+		},
+		"age_rating": "Age rating:",
+		"duration": "Duration:",
+		"route": "Route:",
+		"price": "Price:",
+		"expand": "more",
+		"collapse": "less",
+		"book": "Book now"
+	},
+	"headers": {
+		"about": "About Me",
+		"excursions": "Excursions",
+		"special_conditions": "Special Conditions",
+		"reviews": "Reviews"
+	},
+	"profile": {
+		"greeting": "Hello, my name is Anna",
+		"description1": "I am an accredited tour guide and interpreter in Moscow. I help you see the capital through the lens of details: every street, facade or monument is a page from a living textbook on history, architecture and art. I believe that Moscow, especially its center, is capable of surprising again and again. And if you tell its stories with inspiration, every traveler will leave with the thought: \"I must definitely return here\".",
+		"description2": "Tours can be conducted in English and French.",
+		"contact_title": "For all questions, please contact:"
+	},
+	"sale": {
+		"title": "Thank you for coming back!",
+		"description": "Get a 10% discount on your next excursion by showing confirmation of your previous order."
+	},
+	"footer": {
+		"copyright": "© {{year}} All rights reserved.",
+		"contact": "Contact information: +7 903 747-71-92"
+	}
+}

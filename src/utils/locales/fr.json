@@ -1,0 +1,111 @@
+{
+	"portfolio": {
+		"items": {
+			"1": {
+				"title": "Argent pour l'amour",
+				"date": "26/07/2025"
+			},
+			"2": {
+				"title": "Argent pour l'amour",
+				"date": "26/07/2025"
+			},
+			"3": {
+				"title": "Argent pour l'amour",
+				"date": "26/07/2025"
+			}
+		}
+	},
+	"reviews": {
+		"1": {
+			"name": "Svetlana",
+			"excursion": "Encore une fois sur l'amour",
+			"text": "Une promenade merveilleuse et une guide très accueillante Anna. Elle a raconté beaucoup d'histoires intéressantes que je ne connaissais même pas. Les vieilles maisons, les mansions et les temples se sont révélés sous un nouveau jour. C'est formidable d'apprendre de belles histoires sur notre ville bien-aimée !"
+		},
+		"2": {
+			"name": "Elena",
+			"excursion": "Encore une fois sur l'amour",
+			"text": "Une excursion très chaleureuse et intéressante. C'était la première fois que je me retrouvais dans une telle atmosphère où vous vous promenez dans Moscou comme avec une connaissance qui raconte des histoires intéressantes. Vous pouvez poser des questions et elles ne resteront pas sans réponse. Je le recommande à tous."
+		},
+		"3": {
+			"name": "Yaroslava",
+			"excursion": "Argent pour l'amour",
+			"text": "Une excellente excursion. Une guide très agréable - Anna. L'excursion a commencé sous une pluie battante. Anna a réussi à s'orienter et à changer l'itinéraire. J'ai aimé qu'elle ne se soit pas perdue ou nerveuse, mais qu'elle ait mis l'ambiance que tout irait bien ! Tellement de faits intéressants qu'elle nous a racontés. Pendant l'excursion, nous avons fait une quête. Les questions étaient conçues de manière à ce qu'en y répondant, vous consolidiez ce que vous avez entendu dans votre tête ! J'ai regardé Moscou et le quartier de Sretenka avec des yeux différents. Je le recommande vivement à ceux qui veulent non seulement se promener dans Moscou, s'imprégner de son passé, mais aussi vivre quelque chose d'inhabituel et de piquant !"
+		},
+		"4": {
+			"name": "Maria",
+			"excursion": "Argent pour l'amour",
+			"text": "Anna nous a révélé les secrets de la capitale, en réussissant à mener une excursion-quête sur un sujet très délicat avec beaucoup de tact et en même temps en détail. Nous avons traversé le quartier rouge, noté les bâtiments préservés qui ont leur propre histoire spéciale liée au thème de l'excursion-quête. Anna est une merveilleuse conteuse qui non seulement rapporte des faits généraux sur les personnes, les lieux et les époques, mais mène également ses propres enquêtes, dont les résultats nous ont beaucoup impressionnés. Nous sommes très heureux d'avoir prêté attention à une excursion aussi extraordinaire, nous avons eu une excellente promenade dans les ruelles discrètes de Moscou en compagnie d'une conteuse intéressante et d'une personne passionnée par l'histoire de sa ville natale. Anna faisait des énigmes et réussissait à nous photographier, à la fin, après avoir atteint le point extrême de l'itinéraire et deviné la dernière tâche, nous avons reçu non seulement une humeur merveilleuse, mais tout un éparpillement de photos, ainsi que des souvenirs agréables et divertissants pour la quête terminée ! Je recommande vivement !"
+		},
+		"5": {
+			"name": "Andrey",
+			"excursion": "Argent pour l'amour",
+			"text": "Une excursion excellente. Anna raconte très intéressamment. J'ai appris beaucoup de nouvelles choses sur la vie de Moscou au 19ème siècle. L'excursion est accompagnée d'une quête passionnante. Cela vous implique grandement dans le processus et vous oblige à écouter attentivement Anna de manière non intrusive. Je répète, c'est très intéressant et instructif. Anna, merci beaucoup. :)"
+		},
+		"6": {
+			"name": "Anna",
+			"excursion": "Encore une fois sur l'amour",
+			"text": "Une promenade légère et agréable à travers les beaux endroits de Moscou. Histoires sur des personnes célèbres, leurs vies, leur amour. Anna présente les informations de manière intéressante : de belles histoires et des poèmes. Vous vous impliquez dans la vie des héros de l'histoire. Je recommande l'excursion à ceux qui veulent passer un bon moment et apprendre quelque chose de nouveau et de beau sur Moscou."
+		}
+	},
+	"excursions": {
+		"1": {
+			"title": "Encore une fois sur l'amour",
+			"age": "16+",
+			"time": "90 min",
+			"route": "Moscou. m. Arbat",
+			"description": "Même si vous êtes déjà venu ici plus d'une fois, cette visite vous révélera de nouveaux détails et significations. Je raconterai des histoires touchantes, dramatiques et curieuses de la vie de Moscovites célèbres. Sur l'amour romantique, parental, spirituel, l'amour pour la Patrie. Et l'amour pour la ville elle-même. Vous la verrez sous des angles inattendus, vous regarderez dans des coins confortables et vous entendrez ce que ses rues chuchotent.",
+			"price": "Groupe 1800₽ par personne"
+		},
+		"2": {
+			"title": "Argent pour l'amour : quête d'auteur dans les ruelles de Sretenka",
+			"age": "18+",
+			"time": "150 min",
+			"route": "Moscou. Place Trubnaya",
+			"description": "Nous nous immergerons dans des temps où au lieu de voitures il y avait des tramways hippomobiles, des signes d'incendie étaient accrochés sur la tour de guet pour annoncer un incendie, et au centre-ville vous pouviez vous retirer avec une dame qui vous plaisait. Beaucoup de Moscovites ne savent pas où se trouvait le quartier rouge, mais je vous le montrerai. Je vous dirai également comment le quartier rouge s'est formé, comment les autorités contrôlaient cette zone et quels ordres y prévalaient.",
+			"price": "Groupe jusqu'à 10 personnes. 1800₽ par personne."
+		},
+		"3": {
+			"title": "Monastère Novodievitchi",
+			"age": "14+",
+			"time": "90 min",
+			"route": "Moscou. Monastère Novodievitchi",
+			"description": "Nous nous promènerons sur le territoire calme et confortable de l'ancien monastère. Nous visiterons un temple actif et examinerons l'exposition du musée. Vous verrez la cathédrale de l'icône de Smolensk de la Mère de Dieu, l'église de l'Assomption avec un réfectoire unique pour son temps, les chambres Mariinsky et autres attractions.",
+			"price": "En groupe 1500₽ par personne. Individuellement 7000₽. De plus, il est nécessaire d'acheter un billet d'excursion : adultes - 500 ₽, étudiants, enfants, retraités, membres de familles nombreuses, handicapés - 300 ₽"
+		},
+		"4": {
+			"title": "Kitay-Gorod - un quartier où la pierre parle et le temps s'arrête",
+			"age": "10+",
+			"time": "90 min",
+			"route": "Moscou. m. Kitay-Gorod",
+			"description": "Nous parlerons des trois rues principales de Kitay-Gorod et des événements historiques qui ont eu lieu sur chacune d'elles, les excursionnistes apprendront à lire l'histoire des rues et ruelles par leurs noms, se familiariseront avec les vieilles cartes de Moscou et comprendront la logique de construction des rues anciennes de Moscou, apprendront comment le plus grand hôtel du monde a été construit et démantelé.",
+			"price": "Excursion individuelle 7000₽."
+		},
+		"age_rating": "Classement d'âge:",
+		"duration": "Durée:",
+		"route": "Itinéraire:",
+		"price": "Prix:",
+		"expand": "plus",
+		"collapse": "réduire",
+		"book": "Réserver"
+	},
+	"headers": {
+		"about": "À propos de moi",
+		"excursions": "Excursions",
+		"special_conditions": "Conditions spéciales",
+		"reviews": "Avis"
+	},
+	"profile": {
+		"greeting": "Bonjour, je m'appelle Anna",
+		"description1": "Je suis guide touristique accréditée et interprète à Moscou. Je vous aide à voir la capitale à travers le prisme des détails : chaque rue, façade ou monument est une page d'un manuel vivant d'histoire, d'architecture et d'art. Je crois que Moscou, surtout son centre, est capable de surprendre encore et encore. Et si on raconte ses histoires avec inspiration, chaque voyageur repartira avec la pensée : \"Il faut absolument revenir ici\".",
+		"description2": "Les excursions peuvent être conduites en anglais et en français.",
+		"contact_title": "Pour toutes questions, veuillez contacter :"
+	},
+	"sale": {
+		"title": "Merci de votre retour !",
+		"description": "Obtenez 10% de réduction sur votre prochaine excursion en présentant la confirmation de votre commande précédente."
+	},
+	"footer": {
+		"copyright": "© {{year}} Tous droits réservés.",
+		"contact": "Informations de contact: +7 903 747-71-92"
+	}
+}

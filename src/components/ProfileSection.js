@@ -1,16 +1,19 @@
 import { Typography, useMediaQuery, useTheme } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import { portfolio, reviews, excursions } from "../utils/consts";
-import ExcursionItem from "./ExcursionItem";
+import { useTranslation } from "react-i18next";
+import { excursions, portfolio, reviews } from "../utils/consts";
+import ExcursionCarousel from "./ExcursionCarousel";
+import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import ProfileInfo from "./ProfileInfo";
 import ReviewCarousel from "./ReviewCarousel";
-import ExcursionCarousel from "./ExcursionCarousel";
-import Footer from "./Footer";
+import Sale from "./Sale";
 
 const ProfileSection = () => {
 	const theme = useTheme();
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
+
+	const { t } = useTranslation();
 
 	const Headers = (props) => (
 		<Typography
@@ -26,7 +29,7 @@ const ProfileSection = () => {
 	return (
 		<Grid
 			container
-			spacing={matches ? 6 : 2}
+			spacing={matches ? 4 : 2}
 			sx={{
 				justifyContent: "center",
 				alignItems: "center",
@@ -36,19 +39,25 @@ const ProfileSection = () => {
 				<Portfolio list={portfolio} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
-				<Headers text={"Обо мне"} />
+				<Headers textKey={"headers.about"} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
 				<ProfileInfo />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
-				<Headers text={"Экскурсии"} />
+				<Headers textKey={"headers.excursions"} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
 				<ExcursionCarousel list={excursions} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
-				<Headers text={"Отзывы"} />
+				<Headers textKey={"headers.special_conditions"} />
+			</Grid>
+			<Grid size={{ xs: 12 }}>
+				<Sale />
+			</Grid>
+			<Grid size={{ xs: 12 }}>
+				<Headers textKey={"headers.reviews"} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
 				<ReviewCarousel list={reviews} />

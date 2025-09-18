@@ -1,9 +1,12 @@
 import { Grid, Typography, useMediaQuery } from "@mui/material";
 import { styled, useTheme } from "@mui/material/styles";
 import ContactIcons from "./ContactIcons";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 const ProfileInfo = () => {
 	const theme = useTheme();
+	const { t } = useTranslation();
 
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
 	const ImageContainer = styled("div")(({ theme }) => ({
@@ -38,11 +41,7 @@ const ProfileInfo = () => {
 			}}
 		>
 			<Grid container width={"80%"}>
-				<Grid
-					size={{ xs: 12, md: 4 }}
-					display="flex"
-					alignItems="center"
-				>
+				<Grid size={{ xs: 12, md: 4 }} display="flex" alignItems="center">
 					<ImageContainer>
 						<Image src={"profile.jpg"} />
 					</ImageContainer>
@@ -50,7 +49,7 @@ const ProfileInfo = () => {
 				<Grid container alignContent={"space-around"} size={{ xs: 12, md: 8 }}>
 					<Grid size={{ xs: 12 }}>
 						<Typography variant={matches ? "h3" : "h5"}>
-							Здравствуйте, меня зовут Анна
+							{t("profile.greeting")}
 						</Typography>
 					</Grid>
 					<Grid size={{ xs: 12 }} sx={{ textAlign: "justify" }}>
@@ -58,18 +57,20 @@ const ProfileInfo = () => {
 							variant="body"
 							sx={{ fontSize: matches ? "20px" : "16px" }}
 						>
-							Я аккредитованный экскурсовод и гид-переводчик в Москве. Помогаю
-							увидеть столицу через призму деталей: каждая улица, фасад или
-							памятник — это страницы живого учебника по истории, архитектуре и
-							искусству. Верю, что Москва, особенно её центр, способна удивлять
-							снова и снова. И если рассказывать её истории с вдохновением,
-							каждый путешественник уедет с мыслью: "Сюда обязательно нужно
-							вернуться".
+							{t("profile.description1")}
+						</Typography>
+					</Grid>
+					<Grid size={{ xs: 12 }} sx={{ textAlign: "justify" }}>
+						<Typography
+							variant="body"
+							sx={{ fontSize: matches ? "20px" : "16px" }}
+						>
+							{t("profile.description2")}
 						</Typography>
 					</Grid>
 					<Grid>
 						<Typography variant={matches ? "h5" : "h6"}>
-							По всем вопросам обращаться:
+							{t("profile.contact_title")}
 						</Typography>
 						<ContactIcons />
 					</Grid>

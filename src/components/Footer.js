@@ -1,8 +1,11 @@
 // src/components/Footer.jsx
 import { Box, Typography, useTheme } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
 	const theme = useTheme();
+	const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
 	return (
 		<Box
 			component="footer"
@@ -17,10 +20,10 @@ const Footer = () => {
 			}}
 		>
 			<Typography variant="body2" color="text.secondary">
-				© {new Date().getFullYear()} Все права защищены.
+				{t("footer.copyright", { year: currentYear })}
 			</Typography>
 			<Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-				Контактная информация: +7 903 747-71-92
+				{t("footer.contact")}
 			</Typography>
 		</Box>
 	);

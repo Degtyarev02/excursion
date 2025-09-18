@@ -1,4 +1,11 @@
-import { Box, styled, Typography, useMediaQuery, useTheme } from "@mui/material";
+import {
+	Box,
+	styled,
+	Typography,
+	useMediaQuery,
+	useTheme,
+} from "@mui/material";
+import { useTranslation } from "react-i18next";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -11,6 +18,8 @@ const Image = styled("img")({
 const Portfolio = ({ list }) => {
 	const theme = useTheme();
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
+
+	const { t } = useTranslation();
 
 	const responsive = {
 		lgDesktop: {
@@ -44,14 +53,17 @@ const Portfolio = ({ list }) => {
 					<div>
 						<Image src={item.img} />
 						<Box sx={{ position: "absolute", top: "10px", left: "20px" }}>
-							<Typography variant={matches ? "h2" : "h5"} sx={{mixBlendMode: "darken"}}>
-								{item.head}
+							<Typography
+								variant={matches ? "h2" : "h5"}
+								sx={{ mixBlendMode: "darken" }}
+							>
+								{t(item.head)}
 							</Typography>
 							<Typography
 								variant="body1"
 								sx={{ fontSize: matches ? "25px" : "12px" }}
 							>
-								{item.desc}
+								{t(item.desc)}
 							</Typography>
 						</Box>
 					</div>
