@@ -16,6 +16,7 @@ const Image = styled("img")({
 });
 
 const Portfolio = ({ list }) => {
+
 	const theme = useTheme();
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -55,13 +56,13 @@ const Portfolio = ({ list }) => {
 						<Box sx={{ position: "absolute", top: "10px", left: "20px" }}>
 							<Typography
 								variant={matches ? "h2" : "h5"}
-								sx={{ mixBlendMode: "darken" }}
+								sx={{ color: item.color }}
 							>
 								{t(item.head)}
 							</Typography>
 							<Typography
 								variant="body1"
-								sx={{ fontSize: matches ? "25px" : "12px" }}
+								sx={{ fontSize: matches ? "25px" : "12px", color: item.color }}
 							>
 								{t(item.desc)}
 							</Typography>

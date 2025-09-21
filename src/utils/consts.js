@@ -1,18 +1,45 @@
 export const portfolio = [
   {
-    img: "/excursions/photo11.jpg",
-    head: "portfolio.items.1.title",
-    desc: "portfolio.items.1.date",
+    img: "/excursions/photo24.jpg",
+    head: "portfolio.items.7.title",
+    desc: "portfolio.items.7.date",
+    color: "#F8F4E9"
   },
   {
-    img: "/excursions/photo12.jpg",
-    head: "portfolio.items.2.title",
-    desc: "portfolio.items.2.date",
+    img: "/excursions/photo23.jpg",
+    head: "portfolio.items.6.title",
+    desc: "portfolio.items.6.date",
+    color: "#F8F4E9"
+  },
+  {
+    img: "/excursions/photo22.jpg",
+    head: "portfolio.items.5.title",
+    desc: "portfolio.items.5.date",
+    color: "#F8F4E9"
+  },
+  {
+    img: "/excursions/photo21.jpg",
+    head: "portfolio.items.4.title",
+    desc: "portfolio.items.4.date",
+    color: "#3E3A34"
   },
   {
     img: "/excursions/photo13.jpg",
     head: "portfolio.items.3.title",
     desc: "portfolio.items.3.date",
+    color: "#3E3A34"
+  },
+  {
+    img: "/excursions/photo12.jpg",
+    head: "portfolio.items.2.title",
+    desc: "portfolio.items.2.date",
+    color: "#3E3A34"
+  },
+  {
+    img: "/excursions/photo11.jpg",
+    head: "portfolio.items.1.title",
+    desc: "portfolio.items.1.date",
+    color: "#3E3A34"
   },
 ];
 
