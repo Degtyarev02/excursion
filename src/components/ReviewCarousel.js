@@ -7,6 +7,8 @@ const ReviewCarousel = ({ list }) => {
 	const theme = useTheme();
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
 
+	const reversedList = [...list].reverse();
+
 	const responsive = {
 		superLargeDesktop: {
 			breakpoint: { max: 4000, min: 3000 },
@@ -45,7 +47,7 @@ const ReviewCarousel = ({ list }) => {
 				responsive={responsive}
 				autoPlay={false}
 			>
-				{list.map((item, index) => (
+				{reversedList.map((item, index) => (
 					<ReviewItem info={item} />
 				))}
 			</Carousel>

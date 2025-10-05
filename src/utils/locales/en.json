@@ -61,26 +61,25 @@
 			"name": "Anna",
 			"excursion": "And Again About Love",
 			"text": "A light, pleasant walk through the beautiful places of Moscow. Stories about famous people, their lives, their love. Anna presents information interestingly: beautiful stories and poems. You get involved in the lives of the story's heroes. I recommend the excursion to those who want to have a good time and learn something new and beautiful about Moscow."
+		},
+		"7": {
+			"name": "Olga",
+			"excursion": "Again About Love",
+			"text": "I really enjoyed both the material and Anna herself! She presents information very easily, everything was memorable, all the stories were interesting and previously unknown! A great route, time flew by unnoticed. I went with my mom and we both loved it equally! I will definitely recommend it to my friends. It's a fantastic opportunity to learn more about the city you live in, slow down, and look around. Highly recommended!"
+		},
+		"8": {
+			"name": "Pavel",
+			"excursion": "Money for Love",
+			"text": "Thank you for the tour! We recommend it to everyone who wants to explore a familiar area from a different angle. It's very interesting, time flies by, and you'll have plenty to discuss with friends afterwards."
+		},
+		"9": {
+			"name": "Tatiana",
+			"excursion": "Again About Love",
+			"text": "The tour is superb! We visited many places that you usually don't notice when rushing by, each with interesting histories about famous people who lived there. Anna is a captivating storyteller – I was so engaged that by the end I could answer all her questions about the families we discussed, which is rare for me to remember everything! I also appreciated that I received answers to all my questions, which doesn't always happen on other tours. And despite there being only two of us, the tour still took place!"
 		}
 	},
 	"excursions": {
 		"1": {
-			"title": "And Again About Love",
-			"age": "16+",
-			"time": "90 min",
-			"route": "Moscow. m. Arbat",
-			"description": "Even if you've been here more than once, this tour will reveal new details and meanings to you. I will tell touching, dramatic and curious stories from the lives of famous Muscovites. About romantic, parental, spiritual love, love for the Fatherland. And love for the city itself. You will see it from unexpected angles, look into cozy corners and hear what its streets whisper about.",
-			"price": "Group 1800₽ per person"
-		},
-		"2": {
-			"title": "Money for Love: author's quest in Sretenka lanes",
-			"age": "18+",
-			"time": "150 min",
-			"route": "Moscow. Trubnaya Square",
-			"description": "We will immerse ourselves in times when instead of cars there were horse-drawn carriages, fire signs were hung on the watchtower to announce a fire, and in the city center you could retire with a lady you liked. Many Muscovites don't know where the red light district was, but I'll show you. I will also tell you how the red light district was formed, how the authorities controlled this area and what orders prevailed here.",
-			"price": "Group up to 10 people. 1800₽ per person."
-		},
-		"3": {
 			"title": "Novodevichy Convent",
 			"age": "14+",
 			"time": "90 min",
@@ -88,13 +87,37 @@
 			"description": "We will walk through the quiet and cozy territory of the ancient monastery. We will visit an active temple and examine the museum exhibition. You will see the Cathedral of the Smolensk Icon of the Mother of God, the Assumption Church with a unique refectory for its time, the Mariinsky Chambers and other attractions.",
 			"price": "In a group 1500₽ per person. Individually 7000₽. Additionally, it is necessary to purchase an excursion ticket: adults - 500 ₽, students, children, pensioners, members of large families, disabled people - 300 ₽"
 		},
-		"4": {
+		"2": {
 			"title": "Kitay-Gorod - a district where stone speaks and time freezes",
 			"age": "10+",
 			"time": "90 min",
 			"route": "Moscow. m. Kitay-Gorod",
 			"description": "We will talk about the three main streets of Kitay-Gorod and the historical events that took place on each of them, excursionists will learn to read the history of streets and lanes by their names, get acquainted with old maps of Moscow and understand the logic of building ancient Moscow streets, learn how the world's largest hotel was built and dismantled.",
 			"price": "Individual excursion 7000₽."
+		},
+		"3": {
+			"title": "And Again About Love",
+			"age": "16+",
+			"time": "90 min",
+			"route": "Moscow. m. Arbat",
+			"description": "Even if you've been here more than once, this tour will reveal new details and meanings to you. I will tell touching, dramatic and curious stories from the lives of famous Muscovites. About romantic, parental, spiritual love, love for the Fatherland. And love for the city itself. You will see it from unexpected angles, look into cozy corners and hear what its streets whisper about.",
+			"price": "Group 1800₽ per person"
+		},
+		"4": {
+			"title": "Money for Love: author's quest in Sretenka lanes",
+			"age": "18+",
+			"time": "150 min",
+			"route": "Moscow. Trubnaya Square",
+			"description": "We will immerse ourselves in times when instead of cars there were horse-drawn carriages, fire signs were hung on the watchtower to announce a fire, and in the city center you could retire with a lady you liked. Many Muscovites don't know where the red light district was, but I'll show you. I will also tell you how the red light district was formed, how the authorities controlled this area and what orders prevailed here.",
+			"price": "Group up to 10 people. 1800₽ per person."
+		},
+		"5": {
+			"title": "Moscow's Ancient Fortresses",
+			"age": "6+",
+			"time": "90 - 120 min",
+			"route": "Moscow. Kitay-gorod metro station",
+			"description": "Get ready for a unique journey through time, where history comes to life in the form of an exciting adventure! Our quest tour is not just a walk around Red Square, but a real interactive investigation. Young detectives will set out to explore the might of the ancient fortress, touch formidable artillery pieces from the past, and learn the dramatic history of the 18th-century Moscow quarantine—complete with real plague barracks and decrees that changed the city's life. They will make unexpected discoveries: for example, a secret compass hidden right under their feet on the centuries-old cobblestones, and fun games of Charades and Hangman that will help solidify new knowledge in an engaging way. The entire route is filled with search: at each stop, participants will find fragments of a mysterious puzzle so that at the climactic moment, by joining forces, they can assemble all the pieces, solve a cunning cipher, and personally unlock the code to an antique chest filled with well-deserved souvenirs. This is an unforgettable experience where every child becomes not a passive listener, but the main hero of their own historical investigation!",
+			"price": "7000₽ for a group of 1 to 3 people, 1800₽ per person for each additional participant"
 		},
 		"age_rating": "Age rating:",
 		"duration": "Duration:",

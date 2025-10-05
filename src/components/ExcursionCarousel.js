@@ -7,6 +7,8 @@ const ExcursionCarousel = ({ list }) => {
 	const theme = useTheme();
 	const matches = useMediaQuery(theme.breakpoints.up("md"));
 
+	const reversedList = [...list].reverse();
+
 	const responsive = {
 		lgDesktop: {
 			breakpoint: { max: 3000, min: 2048 },
@@ -45,7 +47,7 @@ const ExcursionCarousel = ({ list }) => {
 				responsive={responsive}
 				autoPlay={false}
 			>
-				{list.map((info, index) => (
+				{reversedList.map((info, index) => (
 					<ExcursionItem info={info} />
 				))}
 			</Carousel>

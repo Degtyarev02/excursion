@@ -61,26 +61,25 @@
 			"name": "Anna",
 			"excursion": "Encore une fois sur l'amour",
 			"text": "Une promenade légère et agréable à travers les beaux endroits de Moscou. Histoires sur des personnes célèbres, leurs vies, leur amour. Anna présente les informations de manière intéressante : de belles histoires et des poèmes. Vous vous impliquez dans la vie des héros de l'histoire. Je recommande l'excursion à ceux qui veulent passer un bon moment et apprendre quelque chose de nouveau et de beau sur Moscou."
+		},
+		"7": {
+			"name": "Olga",
+			"excursion": "Encore une fois sur l'amour",
+			"text": "J'ai vraiment aimé autant le contenu qu'Anna elle-même ! Elle transmet les informations avec beaucoup de facilité, tout était mémorable, toutes les histoires étaient intéressantes et inconnues jusqu'à présent ! Un itinéraire génial, le temps est passé sans qu'on s'en rende compte. J'y suis allée avec ma mère et nous avons autant apprécié l'une que l'autre ! Je le recommanderai absolument à mes amis. C'est une superbe occasion d'en apprendre plus sur la ville où l'on vit, de ralentir et de regarder autour de soi. Je recommande !"
+		},
+		"8": {
+			"name": "Pavel",
+			"excursion": "Argent pour l'amour",
+			"text": "Merci pour la visite ! Nous la recommandons à tous ceux qui souhaitent découvrir un quartier familier sous un angle différent. C'est très intéressant, le temps passe incroyablement vite et on a ensuite plein de choses à discuter avec des amis."
+		},
+		"9": {
+			"name": "Tatiana",
+			"excursion": "Encore une fois sur l'amour",
+			"text": "La visite est superbe ! Nous avons visité de nombreux endroits qu'on ne remarque pas en courant, avec des histoires intéressantes sur des personnes célèbres qui y ont vécu. Anna raconte de façon captivante – j'étais si absorbée qu'à la fin j'ai pu répondre à toutes ses questions sur les familles dont nous avions parlé, ce qui est rare que je me souvienne de tout ! J'ai aussi apprécié d'avoir obtenu des réponses à toutes mes questions, ce qui n'arrive pas toujours lors d'autres visites. Et même si nous n'étions que deux, la visite a quand même eu lieu !"
 		}
 	},
 	"excursions": {
 		"1": {
-			"title": "Encore une fois sur l'amour",
-			"age": "16+",
-			"time": "90 min",
-			"route": "Moscou. m. Arbat",
-			"description": "Même si vous êtes déjà venu ici plus d'une fois, cette visite vous révélera de nouveaux détails et significations. Je raconterai des histoires touchantes, dramatiques et curieuses de la vie de Moscovites célèbres. Sur l'amour romantique, parental, spirituel, l'amour pour la Patrie. Et l'amour pour la ville elle-même. Vous la verrez sous des angles inattendus, vous regarderez dans des coins confortables et vous entendrez ce que ses rues chuchotent.",
-			"price": "Groupe 1800₽ par personne"
-		},
-		"2": {
-			"title": "Argent pour l'amour : quête d'auteur dans les ruelles de Sretenka",
-			"age": "18+",
-			"time": "150 min",
-			"route": "Moscou. Place Trubnaya",
-			"description": "Nous nous immergerons dans des temps où au lieu de voitures il y avait des tramways hippomobiles, des signes d'incendie étaient accrochés sur la tour de guet pour annoncer un incendie, et au centre-ville vous pouviez vous retirer avec une dame qui vous plaisait. Beaucoup de Moscovites ne savent pas où se trouvait le quartier rouge, mais je vous le montrerai. Je vous dirai également comment le quartier rouge s'est formé, comment les autorités contrôlaient cette zone et quels ordres y prévalaient.",
-			"price": "Groupe jusqu'à 10 personnes. 1800₽ par personne."
-		},
-		"3": {
 			"title": "Monastère Novodievitchi",
 			"age": "14+",
 			"time": "90 min",
@@ -88,13 +87,37 @@
 			"description": "Nous nous promènerons sur le territoire calme et confortable de l'ancien monastère. Nous visiterons un temple actif et examinerons l'exposition du musée. Vous verrez la cathédrale de l'icône de Smolensk de la Mère de Dieu, l'église de l'Assomption avec un réfectoire unique pour son temps, les chambres Mariinsky et autres attractions.",
 			"price": "En groupe 1500₽ par personne. Individuellement 7000₽. De plus, il est nécessaire d'acheter un billet d'excursion : adultes - 500 ₽, étudiants, enfants, retraités, membres de familles nombreuses, handicapés - 300 ₽"
 		},
-		"4": {
+		"2": {
 			"title": "Kitay-Gorod - un quartier où la pierre parle et le temps s'arrête",
 			"age": "10+",
 			"time": "90 min",
 			"route": "Moscou. m. Kitay-Gorod",
 			"description": "Nous parlerons des trois rues principales de Kitay-Gorod et des événements historiques qui ont eu lieu sur chacune d'elles, les excursionnistes apprendront à lire l'histoire des rues et ruelles par leurs noms, se familiariseront avec les vieilles cartes de Moscou et comprendront la logique de construction des rues anciennes de Moscou, apprendront comment le plus grand hôtel du monde a été construit et démantelé.",
 			"price": "Excursion individuelle 7000₽."
+		},
+		"3": {
+			"title": "Encore une fois sur l'amour",
+			"age": "16+",
+			"time": "90 min",
+			"route": "Moscou. m. Arbat",
+			"description": "Même si vous êtes déjà venu ici plus d'une fois, cette visite vous révélera de nouveaux détails et significations. Je raconterai des histoires touchantes, dramatiques et curieuses de la vie de Moscovites célèbres. Sur l'amour romantique, parental, spirituel, l'amour pour la Patrie. Et l'amour pour la ville elle-même. Vous la verrez sous des angles inattendus, vous regarderez dans des coins confortables et vous entendrez ce que ses rues chuchotent.",
+			"price": "Groupe 1800₽ par personne"
+		},
+		"4": {
+			"title": "Argent pour l'amour : quête d'auteur dans les ruelles de Sretenka",
+			"age": "18+",
+			"time": "150 min",
+			"route": "Moscou. Place Trubnaya",
+			"description": "Nous nous immergerons dans des temps où au lieu de voitures il y avait des tramways hippomobiles, des signes d'incendie étaient accrochés sur la tour de guet pour annoncer un incendie, et au centre-ville vous pouviez vous retirer avec une dame qui vous plaisait. Beaucoup de Moscovites ne savent pas où se trouvait le quartier rouge, mais je vous le montrerai. Je vous dirai également comment le quartier rouge s'est formé, comment les autorités contrôlaient cette zone et quels ordres y prévalaient.",
+			"price": "Groupe jusqu'à 10 personnes. 1800₽ par personne."
+		},
+		"5": {
+			"title": "Les Anciennes Forteresses de Moscou",
+			"age": "6+",
+			"time": "90 - 120 min",
+			"route": "Moscou. Station de métro Kitay-gorod",
+			"description": "Préparez-vous pour un voyage unique à travers le temps, où l'histoire prend vie dans une aventure palpitante ! Notre visite-jeu de piste n'est pas simplement une promenade sur la Place Rouge, mais une véritable enquête interactive. Nos jeunes détectives partiront explorer la puissance de l'ancienne forteresse, toucheront de formidables pièces d'artillerie du passé et découvriront l'histoire dramatique de la quarantaine moscovite au XVIIIe siècle—avec de véritables baraquements de peste et des décrets qui ont changé la vie de la ville. Ils feront des découvertes inattendues : par exemple, une boussole secrète cachée juste sous leurs pieds sur les pavés centenaires, et des jeux amusants comme le jeu des Mimiques (Crocodile) et le Pendu qui aideront à ancrer les nouvelles connaissances de manière ludique. Tout le parcours sera ponctué de recherches : à chaque étape, les participants trouveront des fragments d'un puzzle mystérieux afin qu'au moment culminant, en unissant leurs forces, ils puissent assembler toutes les pièces, déchiffrer un code ingénieux et ouvrir eux-mêmes le cadenas d'un coffret ancien rempli de souvenirs bien mérités. C'est une expérience inoubliable où chaque enfant devient non pas un auditeur passif, mais le héros de sa propre enquête historique !",
+			"price": "7000₽ pour un groupe de 1 à 3 personnes, 1800₽ par personne pour chaque participant supplémentaire"
 		},
 		"age_rating": "Classement d'âge:",
 		"duration": "Durée:",
