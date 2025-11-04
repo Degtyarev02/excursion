@@ -1,7 +1,4 @@
 body {
-  background-image: url('../public/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0;
   font-family: 'EB Garamond', serif !important;
   /* Основной текст */

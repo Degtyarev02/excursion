@@ -30,9 +30,7 @@ const ReviewItem = ({ info }) => {
 	const ImageContainer = styled("div")(({ theme }) => ({
 		width: 64,
 		height: 64,
-		border: "2px solid",
 		borderRadius: "0",
-		borderColor: theme.palette.secondary.main,
 		overflow: "hidden",
 		marginRight: "20px",
 	}));
@@ -48,13 +46,6 @@ const ReviewItem = ({ info }) => {
 		height: "20px",
 		objectFit: "cover",
 	});
-
-	const InfoContainer = styled("div")(({ theme }) => ({
-		flex: 1,
-		backgroundColor: theme.palette.accent.main,
-		borderRadius: "10px",
-		padding: "25px 20px",
-	}));
 
 	return (
 		<Box
@@ -77,7 +68,6 @@ const ReviewItem = ({ info }) => {
 					<Typography variant="body1">{t(info.excursion)}</Typography>
 				</Box>
 			</Box>
-			<Divider />
 			<Box
 				sx={{
 					display: "flex",
@@ -91,7 +81,6 @@ const ReviewItem = ({ info }) => {
 				<Star src="star.svg" />
 				<Star src="star.svg" />
 			</Box>
-			<Divider />
 			<Typography variant="body">{displayText} </Typography>
 			{t(info.text).length > 120 && (
 				<Button
@@ -110,7 +99,6 @@ const ReviewItem = ({ info }) => {
 					{expanded ? t("excursions.collapse") : t("excursions.expand")}
 				</Button>
 			)}
-			<Divider />
 		</Box>
 	);
 };

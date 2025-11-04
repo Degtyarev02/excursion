@@ -23,7 +23,7 @@ const ContactItem = styled("div")({
 
 const ContactText = styled("a")(({ theme }) => ({
 	backgroundColor: theme.palette.secondary.main,
-	color: theme.palette.primary.light,
+	color: theme.palette.text.primary,
 	borderRadius: "20px",
 	marginRight: "-40px",
 	padding: "11px 40px 11px 16px",
@@ -55,7 +55,7 @@ const ContactIcons = () => {
 					unmountOnExit
 				>
 					<ContactText
-						href="https://t.me/AnnetteZz"
+						href="https://tglink.ru/anna_excursion"
 						target="_blank"
 						rel="noopener noreferrer"
 						sx={{

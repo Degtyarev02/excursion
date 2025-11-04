@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio";
 import ProfileInfo from "./ProfileInfo";
 import ReviewCarousel from "./ReviewCarousel";
 import Sale from "./Sale";
+import GreetingSection from "./GreetingSection";
 
 const ProfileSection = () => {
 	const theme = useTheme();
@@ -36,30 +37,21 @@ const ProfileSection = () => {
 			}}
 		>
 			<Grid size={{ xs: 12 }}>
-				<Portfolio list={portfolio} />
+				<GreetingSection />
 			</Grid>
-			<Grid size={{ xs: 12 }}>
-				<Headers textKey={"headers.about"} />
-			</Grid>
-			<Grid size={{ xs: 12 }}>
+			<Grid size={{ xs: 12 }} margin={"0 10px"} id='profile'>
 				<ProfileInfo />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
-				<Headers textKey={"headers.excursions"} />
+				<Portfolio list={portfolio} />
 			</Grid>
-			<Grid size={{ xs: 12 }}>
+			<Grid size={{ xs: 12 }} margin={"0 10px"} id='excursions'>
 				<ExcursionCarousel list={excursions} />
-			</Grid>
-			<Grid size={{ xs: 12 }}>
-				<Headers textKey={"headers.special_conditions"} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
 				<Sale />
 			</Grid>
-			<Grid size={{ xs: 12 }}>
-				<Headers textKey={"headers.reviews"} />
-			</Grid>
-			<Grid size={{ xs: 12 }}>
+			<Grid size={{ xs: 12 }} id='reviews'>
 				<ReviewCarousel list={reviews} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>

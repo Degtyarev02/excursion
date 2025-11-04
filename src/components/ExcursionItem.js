@@ -31,73 +31,94 @@ const ExcursionItem = ({ info }) => {
 	const Image = styled("img")({
 		width: "100%",
 		height: "100%",
-		maxHeight: "330px",
+		maxHeight: "350px",
 		maxWidth: matchesMd ? "330px" : "auto",
 		objectFit: "cover",
+		borderRadius: "10px"
 	});
 
 	return (
-		<Grid container spacing={3} margin={"20px"}>
-			<Grid item size={{ xs: 12, md: 5 }}>
-				<Image src={info.img} />
-			</Grid>
-			<Grid item container size={{ xs: 12, md: 7 }}>
-				<Grid item size={{ xs: 12 }}>
-					<Typography marginBottom={"4px"} variant={matches ? "h4" : "h5"}>
-						{t(info.name)}
-					</Typography>
-					<Divider />
-					<Typography variant="body1">
-						{t("excursions.age_rating")} {t(info.age)}
-					</Typography>
-					<Typography variant="body1">
-						{t("excursions.duration")} {t(info.time)}
-					</Typography>
-					<Typography marginBottom={"4px"} variant="body1">
-						{t("excursions.route")} {t(info.route)}
-					</Typography>
-					<Typography
-						marginBottom={"4px"}
-						variant="body1"
-						sx={{ lineHeight: 1.3 }}
-					>
-						{t("excursions.price")} {t(info.price)}
-					</Typography>
-					<Divider />
-					<Box>
-						<Typography variant="body">{displayText} </Typography>
-						{t(info.desc).length > 150 && (
-							<Button
-								onClick={toggleExpand}
-								sx={{
-									color: theme.palette.secondary.main,
-									textTransform: "none",
-									padding: 0,
-									minWidth: "auto",
-									"&:hover": {
-										backgroundColor: "transparent",
-										textDecoration: "underline",
-									},
-								}}
-							>
-								{expanded ? t("excursions.collapse") : t("excursions.expand")}
-							</Button>
-						)}
-					</Box>
+		<Box
+			sx={{
+				height: "100%",
+				minHeight: "350px",
+				display: "flex",
+				flexDirection: "column",
+			}}
+		>
+			<Grid container spacing={matchesMd ? 2 : 3} sx={{ flexGrow: 1 }}>
+				<Grid item size={{ xs: 12, md: 4, lg: 5 }}>
+					<Image src={info.img} />
 				</Grid>
-				<Grid container item size={{ xs: 12 }} alignItems={"end"}>
+				<Grid
+					item
+					size={{ xs: 12, md: 8, lg: 7 }}
+					display={"flex"}
+					flexDirection={"column"}
+					sx={{ flexGrow: 1 }}
+				>
+					<Box sx={{ flexGrow: 1 }}>
+						<Typography marginBottom={"4px"} variant={matches ? "h4" : "h5"}>
+							{t(info.name)}
+						</Typography>
+						<Grid item>
+							<Typography variant="body1">
+								{t("excursions.age_rating")} {t(info.age)}
+							</Typography>
+							<Typography variant="body1">
+								{t("excursions.duration")} {t(info.time)}
+							</Typography>
+							<Typography marginBottom={"4px"} variant="body1">
+								{t("excursions.route")} {t(info.route)}
+							</Typography>
+							<Typography
+								marginBottom={"4px"}
+								variant="body1"
+								sx={{ lineHeight: 1.3 }}
+							>
+								{t("excursions.price")} {t(info.price)}
+							</Typography>
+						</Grid>
+						<Box>
+							<Typography variant="body">{displayText} </Typography>
+							{t(info.desc).length > 150 && (
+								<Button
+									onClick={toggleExpand}
+									sx={{
+										color: theme.palette.secondary.main,
+										textTransform: "none",
+										padding: 0,
+										minWidth: "auto",
+										"&:hover": {
+											backgroundColor: "transparent",
+											textDecoration: "underline",
+										},
+									}}
+								>
+									{expanded ? t("excursions.collapse") : t("excursions.expand")}
+								</Button>
+							)}
+						</Box>
+					</Box>
+
+					{/* Кнопка всегда внизу своей карточки */}
 					<Button
 						href={info.url}
 						variant="contained"
 						disableElevation
 						color="secondary"
-						sx={{ width: "100%", height: "fit-content" }}
+						sx={{
+							width: "100%",
+							height: "fit-content",
+							marginTop: "16px",
+							flexShrink: 0,
+						}}
 					>
 						{t("excursions.book")}
 					</Button>
 				</Grid>
 			</Grid>
-		</Grid>
+		</Box>
 	);
 };
 

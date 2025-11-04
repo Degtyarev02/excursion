@@ -109,7 +109,7 @@ export const excursions = [
     route: "excursions.1.route",
     desc: "excursions.1.description",
     price: "excursions.1.price",
-    url: "https://t.me/AnnetteZz",
+    url: "https://tglink.ru/anna_excursion",
   },
   {
     img: "/excursions/kitay.jpg",
@@ -119,7 +119,7 @@ export const excursions = [
     route: "excursions.2.route",
     desc: "excursions.2.description",
     price: "excursions.2.price",
-    url: "https://t.me/AnnetteZz",
+    url: "https://tglink.ru/anna_excursion",
   },
   {
     img: "/excursions/love.jpg",
@@ -149,6 +149,6 @@ export const excursions = [
     route: "excursions.5.route",
     desc: "excursions.5.description",
     price: "excursions.5.price",
-    url: "https://t.me/AnnetteZz",
+    url: "https://tglink.ru/anna_excursion",
   },
 ];

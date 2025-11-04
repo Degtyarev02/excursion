@@ -133,10 +133,17 @@
 		"special_conditions": "Conditions spéciales",
 		"reviews": "Avis"
 	},
+	"greeting": {
+		"name": "Un Autre Point de Vue",
+		"name2": "Visites Originales par Anna Zueva",
+		"aboutMe": "À Propos",
+		"excursions": "Visites",
+		"reviews": "Avis"
+	},
 	"profile": {
 		"greeting": "Bonjour, je m'appelle Anna",
 		"description1": "Je suis guide touristique accréditée et interprète à Moscou. Je vous aide à voir la capitale à travers le prisme des détails : chaque rue, façade ou monument est une page d'un manuel vivant d'histoire, d'architecture et d'art. Je crois que Moscou, surtout son centre, est capable de surprendre encore et encore. Et si on raconte ses histoires avec inspiration, chaque voyageur repartira avec la pensée : \"Il faut absolument revenir ici\".",
-		"description2": "Les excursions peuvent être conduites en anglais et en français.",
+		"description2": "Les excursions peuvent être conduites en anglais et en français. Pour ne rien manquer de mes actualités, des anecdotes passionnantes et des événements à venir, suivez ma <a href=\"https://tglink.ru/Excursion_with_Anna\">chaîne Telegram</a>",
 		"contact_title": "Pour toutes questions, veuillez contacter :"
 	},
 	"sale": {

@@ -9,12 +9,9 @@ const Sale = () => {
 	return (
 		<Box
 			sx={{
-				background: theme.palette.primary.main,
+				background: theme.palette.background.secondary,
 				backgroundRepeat: "no-repeat",
-				padding: "15px 30px",
-				borderTop: "3px solid",
-				borderBottom: "3px solid",
-				borderColor: theme.palette.secondary.main,
+				padding: "15px 30px"
 			}}
 		>
 			<Typography variant={matches ? "h4" : "h5"}>{t("sale.title")}</Typography>

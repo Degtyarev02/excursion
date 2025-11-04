@@ -133,10 +133,17 @@
 		"special_conditions": "Special Conditions",
 		"reviews": "Reviews"
 	},
+	"greeting": {
+		"name": "A Different Perspective",
+		"name2": "Author's Tours by Anna Zueva",
+		"aboutMe": "About Me",
+		"excursions": "Tours",
+		"reviews": "Reviews"
+	},
 	"profile": {
 		"greeting": "Hello, my name is Anna",
 		"description1": "I am an accredited tour guide and interpreter in Moscow. I help you see the capital through the lens of details: every street, facade or monument is a page from a living textbook on history, architecture and art. I believe that Moscow, especially its center, is capable of surprising again and again. And if you tell its stories with inspiration, every traveler will leave with the thought: \"I must definitely return here\".",
-		"description2": "Tours can be conducted in English and French.",
+		"description2": "Tours can be conducted in English and French. Be the first to get the latest offers, interesting facts, and event updates in my <a href=\"https://tglink.ru/Excursion_with_Anna\">Telegram channel</a>",
 		"contact_title": "For all questions, please contact:"
 	},
 	"sale": {

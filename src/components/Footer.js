@@ -13,9 +13,7 @@ const Footer = () => {
 				py: 2,
 				px: 1,
 				textAlign: "center",
-				borderTop: "3px solid",
-				borderColor: theme.palette.secondary.main,
-				backgroundColor: theme.palette.primary.main,
+				backgroundColor: theme.palette.background.secondary,
 				width: "100%",
 			}}
 		>

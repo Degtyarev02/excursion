@@ -10,8 +10,9 @@ const LanguageSwitcher = () => {
 	};
 
 	return (
-		<ButtonGroup size="small" variant="text" color={theme.palette.primary.dark}>
+		<ButtonGroup size="small" variant="text" >
 			<Button
+				sx={{ color: "text.primary" }}
 				onClick={() => {
 					handleLanguageChange("ru");
 				}}
@@ -19,6 +20,7 @@ const LanguageSwitcher = () => {
 				RU
 			</Button>
 			<Button
+				sx={{ color: "text.primary" }}
 				onClick={() => {
 					handleLanguageChange("en");
 				}}
@@ -26,6 +28,7 @@ const LanguageSwitcher = () => {
 				EN
 			</Button>
 			<Button
+				sx={{ color: "text.primary" }}
 				onClick={() => {
 					handleLanguageChange("fr");
 				}}

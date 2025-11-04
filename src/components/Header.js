@@ -7,13 +7,11 @@ const Header = () => {
 	const theme = useTheme();
 	return (
 		<AppBar
-			position="static"
+			position="absolute"
 			sx={{
-				background: "accent.main",
+				right: "0",
+				background: "transparent",
 				boxShadow: "none",
-				borderBottom: "3px solid",
-				borderTop: "3px solid",
-				borderColor: theme.palette.secondary.main,
 			}}
 		>
 			<Toolbar>

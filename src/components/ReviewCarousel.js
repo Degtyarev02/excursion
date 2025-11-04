@@ -33,11 +33,8 @@ const ReviewCarousel = ({ list }) => {
 			sx={{
 				width: "100%",
 				margin: "0 auto",
-				background: theme.palette.primary.main,
+				background: theme.palette.background.secondary,
 				backgroundRepeat: "no-repeat",
-				borderTop: "3px solid",
-				borderBottom: "3px solid",
-				borderColor: theme.palette.secondary.main,
 			}}
 		>
 			<Carousel
