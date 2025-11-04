@@ -36,6 +36,7 @@ const GreetingSection = () => {
 					position: "absolute",
 					top: matchesLg ? "50%" : "0%",
 					left: "20px",
+					maxWidth: matchesMd ? "400px" : "250px"
 				}}
 			>
 				<Typography variant="h2" sx={{ fontSize: matchesMd ? "65px" : "40px" }}>

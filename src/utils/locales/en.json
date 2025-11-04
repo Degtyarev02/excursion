@@ -119,13 +119,22 @@
 			"description": "Get ready for a unique journey through time, where history comes to life in the form of an exciting adventure! Our quest tour is not just a walk around Red Square, but a real interactive investigation. Young detectives will set out to explore the might of the ancient fortress, touch formidable artillery pieces from the past, and learn the dramatic history of the 18th-century Moscow quarantine—complete with real plague barracks and decrees that changed the city's life. They will make unexpected discoveries: for example, a secret compass hidden right under their feet on the centuries-old cobblestones, and fun games of Charades and Hangman that will help solidify new knowledge in an engaging way. The entire route is filled with search: at each stop, participants will find fragments of a mysterious puzzle so that at the climactic moment, by joining forces, they can assemble all the pieces, solve a cunning cipher, and personally unlock the code to an antique chest filled with well-deserved souvenirs. This is an unforgettable experience where every child becomes not a passive listener, but the main hero of their own historical investigation!",
 			"price": "7000₽ for a group of 1 to 3 people, 1800₽ per person for each additional participant"
 		},
+		"6": {
+			"title": "Visit to the Museum and Temple Complex \"The Road of Memory. 1418 Steps to Victory\"",
+			"age": "8+",
+			"time": "120 min",
+			"route": "Museum and Temple Complex of the Russian Armed Forces",
+			"description": "In 2020, to mark the 75th anniversary of the Great Victory, the Museum and Temple Complex of the Armed Forces of the Russian Federation was opened. Its centerpiece is the Main Cathedral of the Russian Armed Forces. Surrounding the Cathedral, like a fortress wall, is the multimedia complex \"The Road of Memory. 1418 Steps to Victory.\" We will talk about life on the front lines and on the home front, about soldiers' daily lives and the great battles that entered world history. You will see the River of Memory, consisting of more than 30 million photographs of participants in the Great Patriotic War.",
+			"price": "6000₽ for a group of 1-3 people, plus a fixed museum fee of 3500₽. For larger groups — an additional 2000₽ per person. A transfer for 4000₽ from Salaryevo Metro Station is also available, as well as a tour of the Main Cathedral of the Russian Armed Forces for 6500₽. The duration of the excursion can be extended for an additional fee."
+		},
 		"age_rating": "Age rating:",
 		"duration": "Duration:",
 		"route": "Route:",
 		"price": "Price:",
 		"expand": "more",
 		"collapse": "less",
-		"book": "Book now"
+		"book": "Book now",
+		"isNew": "New"
 	},
 	"headers": {
 		"about": "About Me",

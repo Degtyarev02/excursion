@@ -149,6 +149,17 @@ export const excursions = [
     route: "excursions.5.route",
     desc: "excursions.5.description",
     price: "excursions.5.price",
+    url: "https://tglink.ru/anna_excursion"
+  },
+  {
+    img: "/excursions/pobeda.jpg",
+    name: "excursions.6.title",
+    age: "excursions.6.age",
+    time: "excursions.6.time",
+    route: "excursions.6.route",
+    desc: "excursions.6.description",
+    price: "excursions.6.price",
     url: "https://tglink.ru/anna_excursion",
+    isNew: true
   },
 ];

@@ -119,13 +119,22 @@
 			"description": "Préparez-vous pour un voyage unique à travers le temps, où l'histoire prend vie dans une aventure palpitante ! Notre visite-jeu de piste n'est pas simplement une promenade sur la Place Rouge, mais une véritable enquête interactive. Nos jeunes détectives partiront explorer la puissance de l'ancienne forteresse, toucheront de formidables pièces d'artillerie du passé et découvriront l'histoire dramatique de la quarantaine moscovite au XVIIIe siècle—avec de véritables baraquements de peste et des décrets qui ont changé la vie de la ville. Ils feront des découvertes inattendues : par exemple, une boussole secrète cachée juste sous leurs pieds sur les pavés centenaires, et des jeux amusants comme le jeu des Mimiques (Crocodile) et le Pendu qui aideront à ancrer les nouvelles connaissances de manière ludique. Tout le parcours sera ponctué de recherches : à chaque étape, les participants trouveront des fragments d'un puzzle mystérieux afin qu'au moment culminant, en unissant leurs forces, ils puissent assembler toutes les pièces, déchiffrer un code ingénieux et ouvrir eux-mêmes le cadenas d'un coffret ancien rempli de souvenirs bien mérités. C'est une expérience inoubliable où chaque enfant devient non pas un auditeur passif, mais le héros de sa propre enquête historique !",
 			"price": "7000₽ pour un groupe de 1 à 3 personnes, 1800₽ par personne pour chaque participant supplémentaire"
 		},
+		"6": {
+			"title": "Visite du complexe muséal et religieux \"La Route de la Mémoire. 1418 pas vers la Victoire\"",
+			"age": "8+",
+			"time": "120 min",
+			"route": "Complexe Muséal et Religieux des Forces Armées de la Fédération de Russie",
+			"description": "En 2020, pour célébrer le 75e anniversaire de la Grande Victoire, le complexe muséal et religieux des Forces armées de la Fédération de Russie a été inauguré. Son centre est la Cathédrale principale des Forces armées russes. Autour de la Cathédrale, telle un mur de forteresse, se trouve le complexe multimédia \"La Route de la Mémoire. 1418 pas vers la Victoire\". Nous parlerons de la vie sur le front et à l'arrière, de la vie quotidienne des soldats et des grandes batailles entrées dans l'histoire mondiale. Vous verrez la Rivière de la Mémoire, composée de plus de 30 millions de photographies de participants à la Grande Guerre Patriotique.",
+			"price": "6000₽ pour un groupe de 1 à 3 personnes, plus des frais muséaux fixes de 3500₽. Pour un nombre supérieur de participants — un supplément de 2000₽ par personne. Une navette au départ de la station de métro Salaryevo est disponible pour 4000₽, ainsi qu'une visite de la Cathédrale principale des Forces armées russes pour 6500₽. La durée de l'excursion peut être prolongée moyennant un supplément."
+		},
 		"age_rating": "Classement d'âge:",
 		"duration": "Durée:",
 		"route": "Itinéraire:",
 		"price": "Prix:",
 		"expand": "plus",
 		"collapse": "réduire",
-		"book": "Réserver"
+		"book": "Réserver",
+		"isNew": "Nouveauté"
 	},
 	"headers": {
 		"about": "À propos de moi",

@@ -34,7 +34,7 @@ const ExcursionItem = ({ info }) => {
 		maxHeight: "350px",
 		maxWidth: matchesMd ? "330px" : "auto",
 		objectFit: "cover",
-		borderRadius: "10px"
+		borderRadius: "10px",
 	});
 
 	return (
@@ -47,8 +47,25 @@ const ExcursionItem = ({ info }) => {
 			}}
 		>
 			<Grid container spacing={matchesMd ? 2 : 3} sx={{ flexGrow: 1 }}>
-				<Grid item size={{ xs: 12, md: 4, lg: 5 }}>
+				<Grid item size={{ xs: 12, md: 4, lg: 5 }} position={"relative"}>
 					<Image src={info.img} />
+
+					{info.isNew && (
+						<Typography
+							sx={{
+								padding: "5px",
+								border: "2px solid red",
+								borderRadius: "10px",
+								position: "absolute",
+								top: "10px",
+								left: "10px",
+								color: "red",
+								fontWeight: "bold",
+							}}
+						>
+							{t("excursions.isNew")}
+						</Typography>
+					)}
 				</Grid>
 				<Grid
 					item
