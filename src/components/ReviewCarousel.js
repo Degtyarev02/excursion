@@ -35,6 +35,7 @@ const ReviewCarousel = ({ list }) => {
 				margin: "0 auto",
 				background: theme.palette.background.secondary,
 				backgroundRepeat: "no-repeat",
+				borderRadius: "10px"
 			}}
 		>
 			<Carousel

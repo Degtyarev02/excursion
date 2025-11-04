@@ -51,7 +51,7 @@ const ProfileSection = () => {
 			<Grid size={{ xs: 12 }} margin={"0 10px"}>
 				<Sale />
 			</Grid>
-			<Grid size={{ xs: 12 }} id="reviews">
+			<Grid size={{ xs: 12 }} margin={"0 10px"} id="reviews">
 				<ReviewCarousel list={reviews} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
