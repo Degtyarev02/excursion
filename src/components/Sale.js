@@ -11,7 +11,8 @@ const Sale = () => {
 			sx={{
 				background: theme.palette.background.secondary,
 				backgroundRepeat: "no-repeat",
-				padding: "15px 30px"
+				padding: "15px 30px",
+				borderRadius: "10px"
 			}}
 		>
 			<Typography variant={matches ? "h4" : "h5"}>{t("sale.title")}</Typography>

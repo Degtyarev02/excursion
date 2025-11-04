@@ -39,19 +39,19 @@ const ProfileSection = () => {
 			<Grid size={{ xs: 12 }}>
 				<GreetingSection />
 			</Grid>
-			<Grid size={{ xs: 12 }} margin={"0 10px"} id='profile'>
+			<Grid size={{ xs: 12 }} margin={"0 10px"} id="profile">
 				<ProfileInfo />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
 				<Portfolio list={portfolio} />
 			</Grid>
-			<Grid size={{ xs: 12 }} margin={"0 10px"} id='excursions'>
+			<Grid size={{ xs: 12 }} margin={"0 10px"} id="excursions">
 				<ExcursionCarousel list={excursions} />
 			</Grid>
-			<Grid size={{ xs: 12 }}>
+			<Grid size={{ xs: 12 }} margin={"0 10px"}>
 				<Sale />
 			</Grid>
-			<Grid size={{ xs: 12 }} id='reviews'>
+			<Grid size={{ xs: 12 }} id="reviews">
 				<ReviewCarousel list={reviews} />
 			</Grid>
 			<Grid size={{ xs: 12 }}>
