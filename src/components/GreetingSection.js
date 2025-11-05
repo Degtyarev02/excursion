@@ -8,6 +8,31 @@ import {
 	useTheme,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { keyframes } from "@mui/system";
+
+// Анимация для картинки - справа налево
+const slideInFromRight = keyframes`
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
+// Анимация для текста - снизу вверх
+const slideInFromBottom = keyframes`
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
 
 const GreetingSection = () => {
 	const theme = useTheme();
@@ -20,6 +45,7 @@ const GreetingSection = () => {
 		width: "100%",
 		objectFit: "cover",
 		marginLeft: "auto",
+		animation: `${slideInFromRight} 1s ease-in-out forwards`
 	});
 
 	return (
@@ -29,6 +55,7 @@ const GreetingSection = () => {
 				display: "flex",
 				justifyContent: "space-between",
 				overflow: "hidden",
+				position: "relative",
 			}}
 		>
 			<Box
@@ -36,7 +63,11 @@ const GreetingSection = () => {
 					position: "absolute",
 					top: matchesLg ? "50%" : "0%",
 					left: "20px",
-					maxWidth: matchesMd ? "400px" : "250px"
+					zIndex: "22",
+					maxWidth: matchesMd ? "400px" : "250px",
+					animation: `${slideInFromBottom} 1s ease-in-out 1s forwards`,
+					opacity: 0, // Начальное состояние для анимации
+					transform: "translateY(100%)", // Начальное состояние для анимации
 				}}
 			>
 				<Typography variant="h2" sx={{ fontSize: matchesMd ? "65px" : "40px" }}>
