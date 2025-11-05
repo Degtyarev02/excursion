@@ -1,80 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.ico" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600&display=swap"
-			rel="stylesheet"
-		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
+
+		<!-- Предзагрузка критических ресурсов -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+		<!-- Критический CSS инлайново -->
+		<style>
+			/* Базовые стили для быстрой отрисовки */
+			html {
+				scroll-behavior: smooth;
+			}
+			body {
+				margin: 0;
+				font-family: Georgia, "Times New Roman", serif;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-family: Georgia, "Times New Roman", serif;
+			}
+			#root {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+			/* Fallback fonts пока грузятся веб-шрифты */
+			.fonts-loaded body {
+				font-family: "EB Garamond", Georgia, serif;
+			}
+			.fonts-loaded h1,
+			.fonts-loaded h2,
+			.fonts-loaded h3,
+			.fonts-loaded h4,
+			.fonts-loaded h5,
+			.fonts-loaded h6 {
+				font-family: "Cormorant Garamond", Georgia, serif;
+			}
+		</style>
+
+		<!-- Асинхронная загрузка шрифтов -->
+		<link
+			rel="preload"
+			href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap&display=optional"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet';document.documentElement.classList.add('fonts-loaded')"
+		/>
+		<noscript>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+				rel="stylesheet"
+			/>
+		</noscript>
+
+		<!-- Мета-теги -->
 		<meta
 			name="google-site-verification"
 			content="C27AlLSNRiLOBHoffGyEyNYVfbNgKP18UVP2dnCvth8"
 		/>
 		<meta
 			name="description"
-			content="Здравствуйте, меня зовут Анна. Я аккредитованный экскурсовод и гид-переводчик в Москве. Помогаю увидеть столицу через призму деталей: каждая улица, фасад или памятник — это страницы живого учебника по истории, архитектуре и искусству. Верю, что Москва, особенно её центр, способна удивлять снова и снова. И если рассказывать её истории с вдохновением, каждый путешественник уедет с мыслью: Сюда обязательно нужно вернуться. Экскурсии могут проводиться на английском и французских языках."
+			content="Здравствуйте, меня зовут Анна. Я аккредитованный экскурсовод и гид-переводчик в Москве. Помогаю увидеть столицу через призму деталей: каждая улица, фасад или памятник — это страницы живого учебника по истории, архитектуре и искусству."
 		/>
-		<!-- Заголовок страницы -->
+
+		<!-- Open Graph -->
 		<meta
 			property="og:title"
 			content="Иной ракурс - авторские экскурсии Анны Зуевой"
 		/>
-		<!-- Локализация -->
+
 		<meta property="og:locale" content="ru_RU" />
 		<meta property="og:locale:alternate" content="en_US" />
 		<meta property="og:locale:alternate" content="fr_FR" />
 
-		<!-- Название сайта -->
 		<meta
 			property="og:site_name"
 			content="Иной ракурс - авторские экскурсии Анны Зуевой"
 		/>
 
-		<!-- Описание -->
 		<meta
 			property="og:description"
-			content="Здравствуйте, меня зовут Анна. Я аккредитованный экскурсовод и гид-переводчик в Москве. Помогаю увидеть столицу через призму деталей: каждая улица, фасад или памятник — это страницы живого учебника по истории, архитектуре и искусству."
+			content="Здравствуйте, меня зовут Анна. Я аккредитованный экскурсовод и гид-переводчик в Москве. Помогаю увидеть столицу через призму деталей."
 		/>
 
-		<!-- Тип контента -->
 		<meta property="og:type" content="website" />
 
-		<!-- URL страницы -->
 		<meta property="og:url" content="https://www.anna-zueva-excursion.ru/" />
 
-		<!-- Изображение для превью -->
 		<meta
 			property="og:image"
 			content="https://www.anna-zueva-excursion.ru/profile.jpg"
 		/>
+
 		<link
 			rel="apple-touch-icon"
 			href="%PUBLIC_URL%/android-chrome-192x192.png"
 		/>
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
-			rel="stylesheet"
-		/>
+
 		<title>Иной ракурс - авторские экскурсии Анны Зуевой</title>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
-		<!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+		<!-- Скрипт для контроля загрузки шрифтов -->
+		<script>
+			// Fallback если шрифты не загрузились за 3 секунды
+			setTimeout(function () {
+				if (!document.documentElement.classList.contains("fonts-loaded")) {
+					document.documentElement.classList.add("fonts-loaded");
+				}
+			}, 3000);
+		</script>
 	</body>
 </html>
