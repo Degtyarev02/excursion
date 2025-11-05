@@ -63,7 +63,7 @@ const ContactIcons = () => {
 							"&:hover": { textDecoration: "underline" },
 						}}
 					>
-						@AnnetteZz
+						Telegram
 					</ContactText>
 				</Collapse>
 				<IconButton
