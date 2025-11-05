@@ -65,7 +65,7 @@ const GreetingSection = () => {
 					left: "20px",
 					zIndex: "22",
 					maxWidth: matchesMd ? "400px" : "250px",
-					animation: `${slideInFromBottom} 1s ease-in-out 1s forwards`,
+					animation: `${slideInFromBottom} 1s ease-in-out 0.7s forwards`,
 					opacity: 0, // Начальное состояние для анимации
 					transform: "translateY(100%)", // Начальное состояние для анимации
 				}}
