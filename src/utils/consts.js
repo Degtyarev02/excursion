@@ -116,6 +116,12 @@ export const reviews = [
     excursion: "reviews.9.excursion",
     text: "reviews.9.text",
   },
+  {
+    img: "/users/user.svg",
+    name: "reviews.10.name",
+    excursion: "reviews.10.excursion",
+    text: "reviews.10.text",
+  },
 ];
 
 export const excursions = [
