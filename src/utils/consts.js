@@ -1,5 +1,23 @@
 export const portfolio = [
   {
+    img: "/excursions/photo41.jpg",
+    head: "portfolio.items.4.title",
+    desc: "portfolio.items.4.date",
+    color: "#3E3A34"
+  },
+  {
+    img: "/excursions/photo42.jpg",
+    head: "portfolio.items.4.title",
+    desc: "portfolio.items.4.date",
+    color: "#F8F4E9"
+  },
+  {
+    img: "/excursions/photo43.jpg",
+    head: "portfolio.items.4.title",
+    desc: "portfolio.items.4.date",
+    color: "#3E3A34"
+  },
+  {
     img: "/excursions/photo31.jpg",
     head: "portfolio.items.3.title",
     desc: "portfolio.items.3.date",
@@ -122,6 +140,18 @@ export const reviews = [
     excursion: "reviews.10.excursion",
     text: "reviews.10.text",
   },
+  {
+    img: "/users/user.svg",
+    name: "reviews.11.name",
+    excursion: "reviews.11.excursion",
+    text: "reviews.11.text",
+  },
+  {
+    img: "/users/user.svg",
+    name: "reviews.12.name",
+    excursion: "reviews.12.excursion",
+    text: "reviews.12.text",
+  },
 ];
 
 export const excursions = [
@@ -183,6 +213,16 @@ export const excursions = [
     route: "excursions.6.route",
     desc: "excursions.6.description",
     price: "excursions.6.price",
+    url: "https://tglink.ru/anna_excursion"
+  },
+  {
+    img: "/excursions/paris.jpg",
+    name: "excursions.7.title",
+    age: "excursions.7.age",
+    time: "excursions.7.time",
+    route: "excursions.7.route",
+    desc: "excursions.7.description",
+    price: "excursions.7.price",
     url: "https://tglink.ru/anna_excursion",
     isNew: true
   },

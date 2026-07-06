@@ -12,6 +12,10 @@
 			"3": {
 				"title": "Les Anciennes Forteresses de Moscou",
 				"date": "11/16/2025"
+			},
+			"4": {
+				"title": "Le Paris Moscovite",
+				"date": "06/30/2026"
 			}
 		}
 	},
@@ -65,6 +69,16 @@
 			"name": "Yulia",
 			"excursion": "Les Anciennes Forteresses de Moscou",
 			"text": "Nous avons beaucoup aimé l'excursion. Elle était légère, captivante, avec des activités qui ont impliqué autant les enfants que les adultes. Nous avons appris beaucoup de nouvelles choses, avons ri, avons marché dans de beaux endroits — le tout dans une atmosphère agréable et chaleureuse. Un merci particulier à Anna - elle raconte de façon très intéressante, tout le monde l'écoutait avec plaisir. Un format excellent pour ceux qui aiment les visites vivantes et insolites !"
+		},
+		"11": {
+			"name": "Elena",
+			"excursion": "Le Paris Moscovite",
+			"text": "Formidable ! L'excursion est facile à appréhender, tellement belle ! Anna est une guide exceptionnelle. Drôle, charmante, elle en sait tellement et la manière dont elle présente la visite est tout simplement parfaite. La visite passe à la vitesse de l'éclair, un pur plaisir et une vraie détente. Je suis ravie ! Comme c'est agréable de se promener au centre de Moscou et de s'imprégner de l'atmosphère de la France… Une ambiance unique. Cela intéressera tout le monde. Je recommande, en 1h30 à 2h, c'est une véritable reconnexion, on repart plein d'énergie et de joie. Les excursions d'Anna sont un lieu de ressourcement."
+		},
+		"12": {
+			"name": "Maria",
+			"excursion": "Le Paris Moscovite",
+			"text": "Je n'aurais jamais imaginé qu'il y avait autant de choses françaises à Moscou ! Un immense merci à Anna pour ce contenu fascinant et cette promenade merveilleuse!))"
 		}
 	},
 	"excursions": {
@@ -116,10 +130,18 @@
 			"description": "En 2020, pour célébrer le 75e anniversaire de la Grande Victoire, le complexe muséal et religieux des Forces armées de la Fédération de Russie a été inauguré. Son centre est la Cathédrale principale des Forces armées russes. Autour de la Cathédrale, telle un mur de forteresse, se trouve le complexe multimédia \"La Route de la Mémoire. 1418 pas vers la Victoire\". Nous parlerons de la vie sur le front et à l'arrière, de la vie quotidienne des soldats et des grandes batailles entrées dans l'histoire mondiale. Vous verrez la Rivière de la Mémoire, composée de plus de 30 millions de photographies de participants à la Grande Guerre Patriotique.",
 			"price": "6000₽ pour un groupe de 1 à 3 personnes, plus des frais muséaux fixes de 3500₽. Pour un nombre supérieur de participants — un supplément de 2000₽ par personne. Une navette au départ de la station de métro Salaryevo est disponible pour 4000₽, ainsi qu'une visite de la Cathédrale principale des Forces armées russes pour 6500₽. La durée de l'excursion peut être prolongée moyennant un supplément."
 		},
+		"7": {
+			"title": "Le Paris Moscovite",
+			"age": "14+",
+			"time": "1,5 heure",
+			"route": "Moscou. m. Tchekhovskaïa",
+			"description": "Où travaillait le créateur de l'olivier ? Comment s'habillait-on à la mode française et comment sont apparus les mots cloche, boulevard, ensemble ? Qui a inventé le parfum « Krasnaïa Moskva » ? Où voir un authentique fragment de la tour Eiffel dans la capitale russe et écouter une messe en français ? Je vous invite à une promenade — je vous montrerai tout et vous raconterai tout !\n\nJe suis guide-interprète diplômée en français, je me rends souvent en France, je m'intéresse à son histoire et je vois à la fois les entrelacs de nos cultures et leurs différences. C'est pourquoi je souhaite partager mes connaissances avec vous.\n\nVous verrez : l'immeuble de rapport de Firsanova dans le style du Petit Palais. Après la révolution, la propriétaire a émigré à Paris. Le restaurant où Lucien Olivier était chef cuisinier. Le seul temple catholique du centre où l'on célèbre des messes en français. La rue française principale — ici se trouvaient des boutiques françaises et les immigrants s'installaient à proximité. Des coupures de journaux et magazines russes du 19e siècle avec des tenues à la française.\n\nVous apprendrez : comment est né le quartier français et comment il vit aujourd'hui. Comment a été construite la tour Eiffel — le symbole de Paris — et où se trouve à Moscou une partie de son ancien escalier. Comment les sujets français ont influencé la gastronomie, la mode, la parfumerie. Quels mots français nous utilisons sans penser à leur origine. Comment les langues russe et française sont liées. Et bien d'autres choses encore ! Vous écouterez également de la musique française (et pas seulement !).\n\nDétails organisationnels : Je vous fournirai des audioguides — pour mieux entendre le récit et la musique.",
+			"price": "2000₽ par personne. Format groupe. Jusqu'à 14 personnes."
+		},
 		"age_rating": "Classement d'âge:",
 		"duration": "Durée:",
-		"route": "Itinéraire:",
-		"price": "Prix:",
+		"route": "Lieu de rendez-vous:",
+		"price": "Tarif:",
 		"expand": "plus",
 		"collapse": "réduire",
 		"book": "Réserver",
